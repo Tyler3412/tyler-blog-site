@@ -1,0 +1,13 @@
+.desktop-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Align items to the start vertically */
+  align-items: flex-start; /* Align items to the left */
+  gap: 20px; /* Space between items */
+  padding: 10px; /* Padding around the container */
+  z-index: 2;
+  position: absolute;
+  top: 0; /* Adjust as needed */
+  left: 0; /* Adjust as needed */
+  z-index: 10; /* Ensures it's above the background */
+}

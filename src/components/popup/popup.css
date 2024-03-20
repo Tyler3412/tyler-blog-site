@@ -1,0 +1,61 @@
+/* PopupWindow.css */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Dimmed background */
+  }
+  
+  .popup-window {
+    position: absolute; /* Changed to absolute */
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: grab; /* Cursor indicates the window can be moved */
+    width: 60vw;
+    border-radius: 10px 10px 0 0;
+    aspect-ratio: 3/2;
+  }
+  
+  .popup-titlebar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333333; /* Light grey; adjust as needed */
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .popup-title {
+    /* Style for your title text */
+    font-weight: bold;
+    color: white; 
+    flex-grow: 1; /* Makes the title take up available space */
+    text-align: center; /* Centers the title text */
+    margin: 0 auto; /* Adds auto margins on both sides */
+  }
+  
+  .close-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; /* Makes the button circular */
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    line-height: 25px; /* Adjust line height to vertically center the "X" */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-content {
+    padding: 20px;
+    /* Additional content styles */
+  }

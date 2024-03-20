@@ -1,0 +1,36 @@
+/* IconButton.css */
+.icon-button {
+  width: 64px; /* Set the width of the button */
+  height: 64px; /* Set the height of the button */
+  padding: 0; /* Remove padding to ensure dimensions are exact */
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  display: flex; /* Use flex to center the image inside the button */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.icon-image {
+  width: 100%; /* Make the image fill the button */
+  height: auto; /* Keep the image aspect ratio */
+}
+
+.icon-container {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  width: fit-content; /* Fit the container size to its contents */
+  margin: auto; /* Optional: center the container in its parent */
+}
+
+.icon-label {
+  font-size: 14px; /* Adjust based on your preference */
+  color: #FFFFFF; /* Choose a color that matches your app's theme or Ubuntu's style */
+  margin-top: 4px; /* Space between the icon and the text */
+  white-space: nowrap; /* Prevent the text from wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Add an ellipsis for text that's too long */
+  max-width: 100px; /* Set a max-width for the text */
+}
