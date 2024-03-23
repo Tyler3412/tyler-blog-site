@@ -1,0 +1,23 @@
+[
+  {
+    "type": "folder",
+    "name": "CTF",
+    "children": []
+  },
+  {
+    "type": "folder",
+    "name": "Non-Technical",
+    "children": []
+  },
+  {
+    "type": "folder",
+    "name": "Technical",
+    "children": [
+      {
+        "type": "file",
+        "name": "test.md",
+        "path": "/blog/Technical/test.md"
+      }
+    ]
+  }
+]

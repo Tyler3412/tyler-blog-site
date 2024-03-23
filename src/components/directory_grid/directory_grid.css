@@ -1,0 +1,24 @@
+.directory-grid {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Adjust minmax values as needed */
+    gap: 16px; /* Space between items */
+    background-color: #333333;
+    align-items: start;
+    justify-items: start;
+    align-content: start;
+    padding-top: 2%;
+  }
+  
+  .directory-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .directory-item.folder {
+    background-color: #f0f0f0;
+  }
+  

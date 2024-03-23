@@ -16,10 +16,12 @@
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    cursor: grab; /* Cursor indicates the window can be moved */
+    cursor: default; /* Cursor indicates the window can be moved */
     width: 60vw;
     border-radius: 10px 10px 0 0;
     aspect-ratio: 3/2;
+    display: flex;
+    flex-direction: column;
   }
   
   .popup-titlebar {
@@ -27,10 +29,40 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #333333; /* Light grey; adjust as needed */
+    background-color: #272727; /* Light grey; adjust as needed */
     border-radius: 8px 8px 0 0;
+    cursor: grab;
+    user-select: none;
+    position: relative; 
   }
+
+  .back-button {
+    width: 25px;
+    height: 25px;
+    background-color: #AEA79F;
+  }
+
+  .title-spacer {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end; /* Aligns search bar to the right */
+}
   
+  .popup-titlebar button {
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    /* Additional button styles as needed */
+  }
+
+  .popup-titlebar input[type="search"] {
+    margin-left: auto; /* Pushes the search bar to the right */
+    padding: 5px;
+    z-index: 10;
+    position: relative;
+    /* Additional input styles as needed */
+  }
+
   .popup-title {
     /* Style for your title text */
     font-weight: bold;
@@ -38,6 +70,9 @@
     flex-grow: 1; /* Makes the title take up available space */
     text-align: center; /* Centers the title text */
     margin: 0 auto; /* Adds auto margins on both sides */
+    position: absolute;
+    width: 100%;
+    left: 0;
   }
   
   .close-button {
@@ -53,9 +88,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
   }
 
+  /* Assuming this CSS is part of popup.css */
   .popup-content {
-    padding: 20px;
-    /* Additional content styles */
+    display: flex; /* Use flexbox to control the layout */
+    flex-direction: column; /* Stack content vertically */
+    height: 100%; /* Fill the height of the popup window */
+    flex-grow: 1;
+    overflow: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
+
+  .spacer {
+    min-width: 20px; /* Or any specific spacing you prefer */
+}
