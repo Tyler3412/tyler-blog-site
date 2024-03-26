@@ -2,16 +2,44 @@
   {
     "type": "folder",
     "name": "CTF",
+    "path": "/blog/CTF",
     "children": []
   },
   {
     "type": "folder",
     "name": "Non-Technical",
-    "children": []
+    "path": "/blog/Non-Technical",
+    "children": [
+      {
+        "type": "folder",
+        "name": "Cooking",
+        "path": "/blog/Non-Technical/Cooking",
+        "children": [
+          {
+            "type": "file",
+            "name": "fake_recipe.md",
+            "path": "/blog/Non-Technical/Cooking/fake_recipe.md"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Fitness",
+        "path": "/blog/Non-Technical/Fitness",
+        "children": [
+          {
+            "type": "file",
+            "name": "we_go_gym.md",
+            "path": "/blog/Non-Technical/Fitness/we_go_gym.md"
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "folder",
     "name": "Technical",
+    "path": "/blog/Technical",
     "children": [
       {
         "type": "file",
