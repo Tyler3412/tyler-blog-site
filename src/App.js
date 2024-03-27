@@ -75,27 +75,47 @@ function App() {
     }
   };
 
+  function findItemAndParent(items, path, parent = null) {
+    for (const item of items) {
+      if (item.path === path) {
+        return { item, parent }; // Found the item, return it along with its parent
+      }
+      if (item.children) {
+        const found = findItemAndParent(item.children, path, item);
+        if (found) {
+          return found; // If the item is found in a deeper level, return it
+        }
+      }
+    }
+    return null; // Return null if the item is not found
+  }
+
   const goBack = () => {
     if (popupContent.currentPath === "/blog") {
-      // Already at the root, no action needed or maybe close the popup
+      // Already at the root, so maybe close the popup or do nothing
       return;
     }
-    // Use currentPath from state instead of title for path calculations
-    const segments = popupContent.currentPath.split('/').filter(Boolean);
-    segments.pop(); // Remove the last segment to go one level up
-    const newPath = '/' + segments.join('/');
-    const newStructure = newPath === '/blog' ? blogStructure : recursiveSearch(blogStructure, '').find(item => item.path === newPath)?.children || blogStructure;
-    console.log("New path:" , newPath);
-    console.log("New structure:", JSON.stringify(newStructure, null, 2));
-    updatePopupContent(newPath, newStructure, newPath);
+  
+    // Use the findItemAndParent function to find the current item and its parent based on the current path
+    const { parent } = findItemAndParent(blogStructure, popupContent.currentPath) || {};
+  
+    // If there's no parent (which means we are at the root or an error occurred), default to the root
+    if (!parent) {
+      updatePopupContent("/blog", blogStructure, "/blog");
+      return;
+    }
+  
+    // Update the popup content to show the parent directory
+    updatePopupContent(parent.path || "/blog", parent.children || [], parent.path || "/blog");
   };
+  
 
   return (
     <div className='app-container'>
       <div className="wallpaper"/>
       <div className='desktop-container'>
         <FileIconWithLabel onClick={() => openItem({ type: 'file', name: 'About', path: about })} label="About" isFile={true}/>
-        <FileIconWithLabel onClick={() => updatePopupContent("/blog", blogStructure, "/Blog")} label="Blog" isFile={false}/>
+        <FileIconWithLabel onClick={() => updatePopupContent("/blog", blogStructure, "/blog")} label="Blog" isFile={false}/>
         {popupContent.isOpen && (
           <PopupWindow
             title={popupContent.title}
