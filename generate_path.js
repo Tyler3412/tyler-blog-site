@@ -13,7 +13,7 @@ function readDirectory(dir, basePath = '') {
       result.push({
         type: 'folder',
         name: item.name,
-        path: `tyler-blog-site/blog/${relativePath}`.replace(/\\/g, '/'), // Ensure path format is URL-friendly
+        path: `blog/${relativePath}`.replace(/\\/g, '/'), // Ensure path format is URL-friendly
         children: readDirectory(path.join(dir, item.name), relativePath)
       });
     } else if (item.name.endsWith('.md')) {
