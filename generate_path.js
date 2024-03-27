@@ -18,7 +18,7 @@ function readDirectory(dir, basePath = '') {
       });
     } else if (item.name.endsWith('.md')) {
       // Generate a web-accessible path relative to the public directory
-      const webPath = `tyler-blog-site/blog/${relativePath}`.replace(/\\/g, '/'); // Ensure path format is URL-friendly
+      const webPath = `blog/${relativePath}`.replace(/\\/g, '/'); // Ensure path format is URL-friendly
       result.push({
         type: 'file',
         name: item.name,
