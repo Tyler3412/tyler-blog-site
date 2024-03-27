@@ -13,12 +13,12 @@ function readDirectory(dir, basePath = '') {
       result.push({
         type: 'folder',
         name: item.name,
-        path: `/blog/${relativePath}`.replace(/\\/g, '/'), // Ensure path format is URL-friendly
+        path: `blog/${relativePath}`.replace(/\\/g, '/'), // Ensure path format is URL-friendly
         children: readDirectory(path.join(dir, item.name), relativePath)
       });
     } else if (item.name.endsWith('.md')) {
       // Generate a web-accessible path relative to the public directory
-      const webPath = `/blog/${relativePath}`.replace(/\\/g, '/'); // Ensure path format is URL-friendly
+      const webPath = `blog/${relativePath}`.replace(/\\/g, '/'); // Ensure path format is URL-friendly
       result.push({
         type: 'file',
         name: item.name,
