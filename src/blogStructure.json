@@ -17,12 +17,12 @@
               {
                 "type": "file",
                 "name": "Faucet.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/blockchain/Faucet.md"
+                "path": "blog/CTF/CyberApocalypse2024/blockchain/Faucet.md"
               },
               {
                 "type": "file",
                 "name": "Roulette.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/blockchain/Roulette.md"
+                "path": "blog/CTF/CyberApocalypse2024/blockchain/Roulette.md"
               }
             ]
           },
@@ -34,22 +34,22 @@
               {
                 "type": "file",
                 "name": "Boost.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/forensics/Boost.md"
+                "path": "blog/CTF/CyberApocalypse2024/forensics/Boost.md"
               },
               {
                 "type": "file",
                 "name": "Game.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/forensics/Game.md"
+                "path": "blog/CTF/CyberApocalypse2024/forensics/Game.md"
               },
               {
                 "type": "file",
                 "name": "ItHasBegun.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/forensics/ItHasBegun.md"
+                "path": "blog/CTF/CyberApocalypse2024/forensics/ItHasBegun.md"
               },
               {
                 "type": "file",
                 "name": "Urgent.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/forensics/Urgent.md"
+                "path": "blog/CTF/CyberApocalypse2024/forensics/Urgent.md"
               }
             ]
           },
@@ -61,12 +61,12 @@
               {
                 "type": "file",
                 "name": "Bunny.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/hardware/Bunny.md"
+                "path": "blog/CTF/CyberApocalypse2024/hardware/Bunny.md"
               },
               {
                 "type": "file",
                 "name": "RIDs.md",
-                "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/hardware/RIDs.md"
+                "path": "blog/CTF/CyberApocalypse2024/hardware/RIDs.md"
               }
             ]
           }
@@ -101,7 +101,7 @@
       {
         "type": "file",
         "name": "Sektor 7 Malware Dev Essentials Review.md",
-        "path": "tyler-blog-site/blog/Technical/Sektor 7 Malware Dev Essentials Review.md"
+        "path": "blog/Technical/Sektor 7 Malware Dev Essentials Review.md"
       }
     ]
   }
