@@ -2,17 +2,17 @@
   {
     "type": "folder",
     "name": "CTF",
-    "path": "tyler-blog-site/blog/CTF",
+    "path": "blog/CTF",
     "children": [
       {
         "type": "folder",
         "name": "CyberApocalypse2024",
-        "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024",
+        "path": "blog/CTF/CyberApocalypse2024",
         "children": [
           {
             "type": "folder",
             "name": "blockchain",
-            "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/blockchain",
+            "path": "blog/CTF/CyberApocalypse2024/blockchain",
             "children": [
               {
                 "type": "file",
@@ -29,7 +29,7 @@
           {
             "type": "folder",
             "name": "forensics",
-            "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/forensics",
+            "path": "blog/CTF/CyberApocalypse2024/forensics",
             "children": [
               {
                 "type": "file",
@@ -56,7 +56,7 @@
           {
             "type": "folder",
             "name": "hardware",
-            "path": "tyler-blog-site/blog/CTF/CyberApocalypse2024/hardware",
+            "path": "blog/CTF/CyberApocalypse2024/hardware",
             "children": [
               {
                 "type": "file",
@@ -77,18 +77,18 @@
   {
     "type": "folder",
     "name": "Non-Technical",
-    "path": "tyler-blog-site/blog/Non-Technical",
+    "path": "blog/Non-Technical",
     "children": [
       {
         "type": "folder",
         "name": "Cooking",
-        "path": "tyler-blog-site/blog/Non-Technical/Cooking",
+        "path": "blog/Non-Technical/Cooking",
         "children": []
       },
       {
         "type": "folder",
         "name": "Fitness",
-        "path": "tyler-blog-site/blog/Non-Technical/Fitness",
+        "path": "blog/Non-Technical/Fitness",
         "children": []
       }
     ]
@@ -96,7 +96,7 @@
   {
     "type": "folder",
     "name": "Technical",
-    "path": "tyler-blog-site/blog/Technical",
+    "path": "blog/Technical",
     "children": [
       {
         "type": "file",
