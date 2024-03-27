@@ -64,10 +64,11 @@ function App() {
   const openItem = (item) => {
     setSearchTerm('');
     if (item.type === 'file') {
+      const markdownPath = `${process.env.PUBLIC_URL}/${item.path}`;
       setPopupContent({
         title: item.name,
         isOpen: true,
-        content: <TextFile filePath={item.path} />,
+        content: <TextFile filePath={markdownPath} />,
         currentPath: item.path, // Ensure the path is updated for files as well
       });
     } else {
@@ -114,7 +115,12 @@ function App() {
     <div className='app-container'>
       <div className="wallpaper"/>
       <div className='desktop-container'>
-        <FileIconWithLabel onClick={() => openItem({ type: 'file', name: 'About', path: about })} label="About" isFile={true}/>
+        <FileIconWithLabel onClick={() => setPopupContent({ 
+            title: "About", 
+            isOpen: true, 
+            content: <TextFile filePath={about} />,
+            currentPath: 'blog',
+          })} label="About" isFile={true}/>
         <FileIconWithLabel onClick={() => updatePopupContent("/blog", blogStructure, "/blog")} label="Blog" isFile={false}/>
         {popupContent.isOpen && (
           <PopupWindow
