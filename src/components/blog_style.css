@@ -46,10 +46,22 @@
 }
 
 /* Additional styling for code elements */
-.blog-background code,
-.blog-background pre {
-  font-family: 'Courier New', Courier, monospace; /* Monospaced font for code */
+.blog-background pre, .blog-background code {
+  background-color: #333333; /* Slightly darker grey for code blocks */
+  color: #EEEEEE; /* Soft white for text */
+  border-radius: 2px; /* Optional: rounded corners */
+  padding: 5px; /* Padding inside code blocks */
+  overflow-x: auto; /* Horizontal scrolling for long lines */
+  width: auto; /* Override to auto for proper padding */
+  max-width: 100%; /* Ensures code blocks are not wider than the container */
+  font-size: 16px;
 }
+
+/* Assuming usage of a syntax highlighting library, you might have specific classes for syntax. */
+/* Example for JavaScript syntax highlighting, these classes might differ based on the library. */
+.blog-background .keyword { color: #66D9EF; } /* Color for keywords */
+.blog-background .string { color: #E6DB74; } /* Color for strings */
+.blog-background .function { color: #A6E22E; } /* Color for function names */
 
 .blog-background ul {
     padding-left: 20px; /* Adjust as needed for proper indentation */

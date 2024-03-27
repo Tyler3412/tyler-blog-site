@@ -3,7 +3,76 @@
     "type": "folder",
     "name": "CTF",
     "path": "/blog/CTF",
-    "children": []
+    "children": [
+      {
+        "type": "folder",
+        "name": "CyberApocalypse2024",
+        "path": "/blog/CTF/CyberApocalypse2024",
+        "children": [
+          {
+            "type": "folder",
+            "name": "blockchain",
+            "path": "/blog/CTF/CyberApocalypse2024/blockchain",
+            "children": [
+              {
+                "type": "file",
+                "name": "Faucet.md",
+                "path": "/blog/CTF/CyberApocalypse2024/blockchain/Faucet.md"
+              },
+              {
+                "type": "file",
+                "name": "Roulette.md",
+                "path": "/blog/CTF/CyberApocalypse2024/blockchain/Roulette.md"
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "forensics",
+            "path": "/blog/CTF/CyberApocalypse2024/forensics",
+            "children": [
+              {
+                "type": "file",
+                "name": "Boost.md",
+                "path": "/blog/CTF/CyberApocalypse2024/forensics/Boost.md"
+              },
+              {
+                "type": "file",
+                "name": "Game.md",
+                "path": "/blog/CTF/CyberApocalypse2024/forensics/Game.md"
+              },
+              {
+                "type": "file",
+                "name": "ItHasBegun.md",
+                "path": "/blog/CTF/CyberApocalypse2024/forensics/ItHasBegun.md"
+              },
+              {
+                "type": "file",
+                "name": "Urgent.md",
+                "path": "/blog/CTF/CyberApocalypse2024/forensics/Urgent.md"
+              }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "hardware",
+            "path": "/blog/CTF/CyberApocalypse2024/hardware",
+            "children": [
+              {
+                "type": "file",
+                "name": "Bunny.md",
+                "path": "/blog/CTF/CyberApocalypse2024/hardware/Bunny.md"
+              },
+              {
+                "type": "file",
+                "name": "RIDs.md",
+                "path": "/blog/CTF/CyberApocalypse2024/hardware/RIDs.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "type": "folder",
@@ -14,25 +83,13 @@
         "type": "folder",
         "name": "Cooking",
         "path": "/blog/Non-Technical/Cooking",
-        "children": [
-          {
-            "type": "file",
-            "name": "fake_recipe.md",
-            "path": "/blog/Non-Technical/Cooking/fake_recipe.md"
-          }
-        ]
+        "children": []
       },
       {
         "type": "folder",
         "name": "Fitness",
         "path": "/blog/Non-Technical/Fitness",
-        "children": [
-          {
-            "type": "file",
-            "name": "we_go_gym.md",
-            "path": "/blog/Non-Technical/Fitness/we_go_gym.md"
-          }
-        ]
+        "children": []
       }
     ]
   },
@@ -43,8 +100,8 @@
     "children": [
       {
         "type": "file",
-        "name": "test.md",
-        "path": "/blog/Technical/test.md"
+        "name": "Sektor 7 Malware Dev Essentials Review.md",
+        "path": "/blog/Technical/Sektor 7 Malware Dev Essentials Review.md"
       }
     ]
   }
