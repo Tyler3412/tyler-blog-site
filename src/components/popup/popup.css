@@ -97,7 +97,6 @@
     flex-direction: column; /* Stack content vertically */
     height: 100%; /* Fill the height of the popup window */
     flex-grow: 1;
-    overflow: auto;
     align-items: flex-start;
     justify-content: flex-start;
   }
