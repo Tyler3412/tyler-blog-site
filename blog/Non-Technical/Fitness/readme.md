@@ -26,12 +26,12 @@ I'd recommend checking with a physician if you're unsure of anything here. This 
 
 For beginners, I love to start with calisthenics. Calisthenics is bodyweight training. No gym necessary, so it's largely accessible. I would recommend finding a pullup bar to use, ideally a park with bars of multiple heights. If this isn't possible, you can still progress initially, but you'll find it hard to progress as you get stronger.
 
-The first thing that I'd do is start here: [https://nick-e.com/exercise-library/routines/reddit-bwf-primer/]. This will give you all of the foundational knowledge you'll need about fitness. It's a 14 day routine which comes with readings that'll explain the basics in bite sized pieces. Once you've completed the primer and can meet the graduation requirements, we can move onto this routine: [https://nick-e.com/bwsf/]. 
+The first thing that I'd do is start here: [Bodyweight Fitness Primer](https://nick-e.com/exercise-library/routines/reddit-bwf-primer/). This will give you all of the foundational knowledge you'll need about fitness. It's a 14 day routine which comes with readings that'll explain the basics in bite sized pieces. Once you've completed the primer and can meet the graduation requirements, we can move onto this routine: [Primer Continuation](https://nick-e.com/bwsf/). 
 
 Moving beyond the above routine will be a topic for another post.
 ## Training Part 2: Endurance
 Next we have endurance training. Same disclaimer as above.
 
-Endurance is extremely simple. This section is only going to detail running, or rather jogging. Very slowly at first, and eventually we can work up to a 5 km run. Follow this routine to do that: [https://c25k.com/c25k_metric/].
+Endurance is extremely simple. This section is only going to detail running, or rather jogging. Very slowly at first, and eventually we can work up to a 5 km run. Follow this routine to do that: [Couch to 5k Program](https://c25k.com/c25k_metric/).
 
 Once you're able to complete this routine, I'd recommend doing a 5 km run twice to three times per week. Nothing too insane, and just like the strength section, moving on from this routine is going to be left for another post.
