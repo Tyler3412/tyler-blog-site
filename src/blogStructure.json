@@ -89,7 +89,13 @@
         "type": "folder",
         "name": "Fitness",
         "path": "blog/Non-Technical/Fitness",
-        "children": []
+        "children": [
+          {
+            "type": "file",
+            "name": "readme.md",
+            "path": "blog/Non-Technical/Fitness/readme.md"
+          }
+        ]
       }
     ]
   },
