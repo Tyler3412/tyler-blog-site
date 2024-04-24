@@ -1,4 +1,5 @@
 **Category: Rev**
+
 **Points: 1000 (990 after dynamic scoring)**
 ## Introduction
 There's no challenge description or hints. We get a binary file named readmymind. Upon running it, it asks for a number.
