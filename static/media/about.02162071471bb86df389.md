@@ -8,5 +8,5 @@ There's a blog folder below that'll open up to a few topics:
     - Just a collection of random things that I find interesting
 
 Socials:
-[LinkedIn](www.linkedin.com/in/tyler-cong-555775203)
+[LinkedIn](https://linkedin.com/in/tyler-cong-555775203)
 [Github](https://github.com/Tyler3412)
