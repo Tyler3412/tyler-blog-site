@@ -52,7 +52,7 @@
   border-radius: 2px; /* Optional: rounded corners */
   padding: 5px; /* Padding inside code blocks */
   overflow-x: auto; /* Horizontal scrolling for long lines */
-  width: auto; /* Override to auto for proper padding */
+  width: 100%; /* Override to auto for proper padding */
   max-width: 100%; /* Ensures code blocks are not wider than the container */
   font-size: 16px;
 }

@@ -6,6 +6,18 @@
     "children": [
       {
         "type": "folder",
+        "name": "CIT2024",
+        "path": "blog/CTF/CIT2024",
+        "children": [
+          {
+            "type": "file",
+            "name": "readmymind.md",
+            "path": "blog/CTF/CIT2024/readmymind.md"
+          }
+        ]
+      },
+      {
+        "type": "folder",
         "name": "CyberApocalypse2024",
         "path": "blog/CTF/CyberApocalypse2024",
         "children": [
