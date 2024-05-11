@@ -82,3 +82,8 @@
     align-items: flex-start; /* Aligns content to the start, allowing for natural padding of lists */
     margin: 0 auto; /* Centers the container */
   }
+
+  .blog-background .content-container img {
+    width: 100%;
+    height: auto;
+  }
