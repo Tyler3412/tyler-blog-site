@@ -117,9 +117,40 @@
     "path": "blog/Technical",
     "children": [
       {
-        "type": "file",
-        "name": "Sektor 7 Malware Dev Essentials Review.md",
-        "path": "blog/Technical/Sektor 7 Malware Dev Essentials Review.md"
+        "type": "folder",
+        "name": "Courses",
+        "path": "blog/Technical/Courses",
+        "children": [
+          {
+            "type": "file",
+            "name": "Sektor 7 Malware Dev Essentials Review.md",
+            "path": "blog/Technical/Courses/Sektor 7 Malware Dev Essentials Review.md"
+          },
+          {
+            "type": "file",
+            "name": "TCM PMAT Review.md",
+            "path": "blog/Technical/Courses/TCM PMAT Review.md"
+          }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "Malware",
+        "path": "blog/Technical/Malware",
+        "children": [
+          {
+            "type": "folder",
+            "name": "WannaCry",
+            "path": "blog/Technical/Malware/WannaCry",
+            "children": [
+              {
+                "type": "file",
+                "name": "Analysis.md",
+                "path": "blog/Technical/Malware/WannaCry/Analysis.md"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
